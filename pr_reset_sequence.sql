@@ -1,4 +1,4 @@
-PROCEDURE pr_reset_sequence (seq_name IN VARCHAR2, startvalue IN PLS_INTEGER, cache IN NUMBER DEFAULT NULL) AS
+CREATE OR REPLACE PROCEDURE pr_reset_sequence (seq_name IN VARCHAR2, startvalue IN PLS_INTEGER, cache IN NUMBER DEFAULT NULL) AS
 
 cval INTEGER;
 inc_by VARCHAR2(25);
